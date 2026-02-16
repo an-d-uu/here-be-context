@@ -94,7 +94,7 @@ clarity, cross-team alignment, or long-term leverage.
 Write this in performance-review-ready language. Clear, factual,
 outcome-focused.
 
-### Monthly Visibility Synthesis Prompt Switch (Explicit)
+### Universal Work Artifact Extractor Prompt Switch (Explicit)
 When `#UWA` or `#artifactextrator` or `#switch-2` is included use the '2. Universal Work Artifact Extractor -- Full Version'
 
 ```
