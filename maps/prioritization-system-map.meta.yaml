@@ -1,0 +1,49 @@
+file: prioritization-system-map.md
+title: Prioritization System Map
+type: framework
+tool: ChatGPT
+version: v1.0
+
+purpose: >
+  Clarifies how multiple prioritization-related sources interact, including their roles,
+  boundaries, and order of use, without merging them into a single system.
+
+usage:
+  - Understand how different prioritization tools relate to each other
+  - Determine correct sequencing of intake, prioritization, estimation, and communication
+  - Resolve confusion between urgency, importance, and effort
+  - Interpret adjacent documents without conflating their roles
+
+do_not_use_for:
+  - Replacing individual source documents
+  - Performing actual prioritization decisions without underlying frameworks
+  - Estimating effort or assigning priority directly
+
+style_goals:
+  - Clear separation of concerns
+  - Non-overlapping definitions of concepts
+  - Explicit boundaries between systems
+  - Operational clarity over theoretical completeness
+
+constraints:
+  - Sources are complementary but not interchangeable
+  - Sequence should generally follow intake → priority → estimation → communication
+  - Each system answers a distinct question and should not be repurposed
+
+sections:
+  - Purpose
+  - Why This Map Exists
+  - Source Roles
+  - Relationship Model
+  - Standard Operating Sequence
+  - Precedence Rules
+  - Anti-Confusion Notes
+  - Common Collision Patterns
+  - Fast Reference
+  - Summary
+
+notes:
+  - Update when new prioritization-related sources are added
+  - Update when scope or usage of existing sources changes
+  - Maintain alignment with actual operational practices
+  

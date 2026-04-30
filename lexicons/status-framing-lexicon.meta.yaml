@@ -1,0 +1,16 @@
+file: status-framing-lexicon.md
+title: Status Framing Lexicon
+tool: ChatGPT
+version: v1.1
+type: lexicon
+purpose: >
+  Shape status-update language to be clear, professional, controlled,
+  and low-panic.
+sections:
+  - Balanced Status Updates (Low-Panic, Low-Follow-Up)
+  - Preferred Alternatives to "Align" / "Alignment"
+style_goals:
+  - professional
+  - clear
+  - human
+  - non-committal

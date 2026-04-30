@@ -2,11 +2,6 @@
 
 Use this when determining where content belongs and how it should be structured within the lexicon system.
 
-## Metadata
-
-- Tool: ChatGPT
-- Version: v1.0
-
 ## Instructions
 
 Your task is to review the wording I provide and decide whether it should:
@@ -23,8 +18,8 @@ Follow these rules:
 - Avoid implied commitments, unnecessary ownership, panic-inducing phrasing, or uncontrolled flair
 - When useful, distill the example into a more reusable phrasing pattern
 - Do not invent random personality
-- Do not place behavioral guidance in Metadata
-- Use Metadata only for artifact-level information such as Tool and Version
+- Keep metadata limited to artifact-level information
+- Do not place behavioral guidance, tone rules, examples, or usage instructions in metadata unless they describe how the file itself should be used
 
 When responding, do the following:
 
@@ -68,20 +63,14 @@ Then provide:
 
 ## Step 5: Metadata Guidance
 
-If this content belongs in a new file, include a suggested Metadata block in this format:
+If this content belongs in a new file, include suggested sidecar metadata for a `.meta.yaml` file.
 
-## Metadata
+Use this format:
 
-- Tool: ChatGPT
-- Version: v1.0
-
-Keep the response clean, practical, and ready to paste into the repo.
-
-Here is the wording to evaluate:
-[PASTE WORDING HERE]
-
-Optional context:
-
-- Intended audience: [coworkers / managers / stakeholders / clients]
-- Desired effect: [reduce panic / reduce follow-up questions / soften tone / professionalize / scope control / clarify status]
-- Existing lexicon candidates: [PASTE FILE NAMES HERE]
+```yaml
+file: <proposed-lexicon-filename.md>
+title: <lexicon title>
+type: lexicon
+tool: ChatGPT
+version: v1.0
+purpose: <1 sentence describing what this lexicon controls>

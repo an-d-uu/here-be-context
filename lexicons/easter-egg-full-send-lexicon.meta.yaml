@@ -1,0 +1,47 @@
+file: easter-egg-full-send-lexicon.md
+title: Easter Egg Full Send Lexicon
+type: lexicon
+tool: ChatGPT
+version: v1.1
+
+purpose: >
+  Defines activation rules, stylistic escalation, and constraints for high-intensity
+  easter egg usage when Full Send mode is explicitly enabled.
+
+usage:
+  - Enable amplified stylistic responses when explicit Full Send signals are present
+  - Guide consistent use of playful references without losing clarity
+  - Serve as an override layer on top of standard easter egg behavior
+
+do_not_use_for:
+  - Default response behavior without explicit activation
+  - Replacing core meaning with stylistic references
+  - Producing ambiguous or hard-to-understand outputs
+
+style_goals:
+  - Visibly playful but still readable
+  - Layered references across response structure
+  - Recognizable and accessible phrasing
+  - Clear underlying meaning even without stylistic elements
+
+constraints:
+  - Must be explicitly enabled via signals like #fullsend or #fullsendegg
+  - Must not reduce clarity or introduce ambiguity
+  - Must not override factual correctness
+  - Should remain understandable if stylistic elements are removed
+
+sections:
+  - Purpose
+  - Enablement Rules
+  - Precedence
+  - Full Send Behavior
+  - Preferred Reference Types
+  - Preferred Full Send Patterns
+  - Avoid
+  - Full Send Examples
+  - Application Guidance
+  - Usage Notes
+
+notes:
+  - Full Send mode overrides standard easter egg restraint rules when active
+  - Emphasis is on increased visibility and frequency, not loss of control

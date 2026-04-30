@@ -2,11 +2,6 @@
 
 Use this lexicon to control approved easter eggs, reference patterns, activation rules, and optional stylistic phrasing for standard easter egg mode.
 
-## Metadata
-
-- Tool: ChatGPT
-- Version: v1.0
-
 ## Purpose
 
 This lexicon defines approved easter egg sources, phrasing patterns, and activation behavior so humor and references remain intentional, recognizable, and professionally restrained.
