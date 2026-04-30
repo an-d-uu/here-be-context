@@ -1,0 +1,57 @@
+file: eisenhower-matrix-work-guide.md
+title: Eisenhower Matrix for My Work
+type: framework
+tool: ChatGPT
+version: v1.0
+
+purpose: >
+  Provide a lightweight intake and prioritization framework for classifying tasks,
+  requests, and interruptions before reacting to them.
+
+usage:
+  - Classify new work or interruptions before accepting them
+  - Determine response path: do, schedule, redirect, or decline
+  - Evaluate urgency versus importance with consistent definitions
+  - Support decision-making alongside Jira and sprint processes
+  - Generate structured responses using ChatGPT
+
+do_not_use_for:
+  - Replacing Jira priority or backlog management
+  - Estimation or story point sizing
+  - Final delivery sequencing decisions
+
+style_goals:
+  - Clear distinctions between urgent and important
+  - Practical, action-oriented guidance
+  - Neutral, non-emotional decision framing
+  - Minimal ambiguity in response paths
+
+constraints:
+  - Must remain compatible with Jira priority systems
+  - Must not treat urgency as a proxy for effort
+  - Must not convert all interruptions into tracked work
+  - Must not allow chat-based requests to bypass intake without intent
+
+sections:
+  - Core Definitions
+  - Four Response Paths
+  - Intake Questions
+  - Tool Mapping
+  - Working Rules
+  - Practical Translation
+  - Anti-Patterns
+  - Response Framing
+  - Examples
+  - ChatGPT Usage
+  - Summary
+
+tool:
+  - Eisenhower Matrix
+  - Jira
+  - ChatGPT
+
+notes:
+  - Update when definitions of urgency or importance evolve
+  - Update when Jira priority usage or estimation practices change
+  - Expand when recurring edge cases are not well handled
+  - Refine response framing language over time
