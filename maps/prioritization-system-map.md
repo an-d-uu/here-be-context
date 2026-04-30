@@ -216,15 +216,6 @@ Use the status-framing lexicon to describe the decision in a controlled way afte
 | Story Point Estimation Process | How big or uncertain is this work?                   | Estimation and planning                    | Priority, urgency, value judgment                   |
 | Status Framing Lexicon         | How should this be communicated?                     | Controlled status wording                  | Deciding truth, urgency, or scope                   |
 
-## Maintenance Notes
-
-Update this map when:
-
-* a new prioritization-related source is added
-* one source changes scope or intended use
-* repeated confusion appears between two sources
-* the standard operating sequence changes
-
 ## Summary
 
 This repo contains multiple tools for different parts of work judgment. They are connected, but they are not interchangeable.
