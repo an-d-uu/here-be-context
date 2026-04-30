@@ -1,0 +1,45 @@
+file: easter-egg-lexicon.md
+title: Easter Egg Lexicon
+type: lexicon
+tool: ChatGPT
+version: v1.0
+
+purpose: >
+  Define approved easter egg usage, phrasing patterns, and activation rules so humor remains controlled, recognizable, and secondary to clarity.
+
+usage:
+  - Apply when easter egg behavior is explicitly enabled
+  - Guide selection of safe, recognizable references
+  - Maintain consistency in tone and humor usage
+
+do_not_use_for:
+  - Default humor injection without explicit enablement
+  - Replacing core meaning with references
+  - Introducing obscure or exclusionary jokes
+
+style_goals:
+  - Subtle
+  - Recognizable
+  - Removable without changing meaning
+  - Secondary to primary message
+  - Professional and non-disruptive
+
+constraints:
+  - Only activate when explicit signals are present
+  - Prefer one reference over multiple
+  - Avoid layered or niche references
+  - Do not compromise clarity or intent
+
+sections:
+  - Purpose
+  - Enablement Rules
+  - Preferred Reference Types
+  - Preferred Easter Egg Patterns
+  - Avoid
+  - Approved Examples
+  - Application Guidance
+  - Usage Notes
+
+notes:
+  - Prefer more specific lexicons when available
+  - Easter eggs should function as optional embellishment, not structure

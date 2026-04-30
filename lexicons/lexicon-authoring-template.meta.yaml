@@ -1,0 +1,33 @@
+file: lexicon-authoring-template.md
+title: Lexicon Authoring Template
+type: guide
+tool: ChatGPT
+version: v1.1
+purpose: Guide for classifying and structuring lexicon entries within a controlled expression system.
+usage:
+  - Evaluate whether phrasing belongs in an existing lexicon or a new one
+  - Standardize how lexicon entries are written and formatted
+  - Ensure consistency in tone, structure, and reuse across lexicons
+do_not_use_for:
+  - General writing guidance outside lexicon systems
+  - Behavioral or personality instruction design
+style_goals:
+  - precise
+  - reusable
+  - neutral tone
+  - professional
+  - scope-safe language
+constraints:
+  - Do not invent personality or stylistic flair
+  - Avoid implied commitments or ownership language
+  - Keep metadata limited to artifact-level information only
+sections:
+  - Instructions
+  - Step 1: Classification
+  - Step 2: Recommendation
+  - Step 3: Entry Formatting
+  - Step 4: Reusability Check
+  - Step 5: Metadata Guidance
+notes:
+  - Treat lexicons as expression-control artifacts rather than general documentation
+  - Emphasizes reusable phrasing patterns over one-off edits

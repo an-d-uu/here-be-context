@@ -1,0 +1,29 @@
+file: lexicon-entry-template.md
+title: Lexicon Entry Template
+type: guide
+tool: ChatGPT
+version: v1.1
+purpose: Guide for adding or refining entries within an existing lexicon.
+usage:
+  - Evaluate whether wording belongs in an existing lexicon or should become a new lexicon
+  - Format wording as a ready-to-paste lexicon entry
+  - Create reusable generalized phrasing when applicable
+do_not_use_for:
+  - General writing guidance outside lexicon systems
+  - Behavioral or personality instruction design
+style_goals:
+  - professional
+  - clear
+  - neutral
+  - reusable
+constraints:
+  - Lexicons control phrasing, tone, and expression
+  - Avoid implied commitments, panic language, and unnecessary ownership
+  - Keep metadata limited to artifact-level information
+sections:
+  - Instructions
+  - New-File Metadata Guidance
+  - Wording
+  - Optional context
+notes:
+  - This template is narrower than the lexicon authoring template and is focused on entry-level additions or refinements.

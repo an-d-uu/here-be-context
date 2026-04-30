@@ -2,11 +2,6 @@
 
 Use this lexicon to control high-intensity easter eggs, amplified stylistic phrasing, and visibly playful reference patterns when Full Send mode is explicitly enabled.
 
-## Metadata
-
-- Tool: ChatGPT
-- Version: v1.0
-
 ## Purpose
 
 This lexicon defines the activation behavior, escalation rules, and approved examples for high-intensity easter egg mode.
