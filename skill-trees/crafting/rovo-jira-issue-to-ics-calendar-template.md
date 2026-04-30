@@ -26,12 +26,12 @@ It is a controlled transformation.
 
 ## Instructions
 
-Create a calendar appointment for Jira issue `TIS-123999` and output it as `.ics` or `.cal` file content in a single code block.
+Create a calendar appointment for Jira issue loaded into context. If you do not have a Jira issue loaded into context then prompt me for the `[ISSUE-KEY]` before continuing. Output it as an `.ics` (or `.cal`) file content in a single code block with the calendar appointment formatted as HTML.
 
 ### Scheduling Rule
 
-- If `Actual start` and `Actual end` are present, use them for `DTSTART` and `DTEND`
-- Otherwise use `Planned start` and `Planned end`
+- Use `Planned start` for `DTSTART` and `Planned end` for `DTEND`
+- If `Planned end` is not present then choose 30 minutes or 1 hour depending on the level of difficulty of the task for the `DTEND`.
 - Timezone must be `America/Chicago` using a `VTIMEZONE` block
 
 ### Event Fields
@@ -68,7 +68,7 @@ Merge the following sections into `DESCRIPTION` in this exact order:
 4. `Backout plan`
 5. `Linked Work Items`
    - Format each as: `<KEY>: <URL>`
-   - The URL text should display as the project key, such as `TIS-123456`, and the address should be the full issue URL
+   - The URL text should display as the project key, and the address should be the full issue URL
 6. `All Comments`
    - For each commenter, add a subheader line formatted exactly as:
      `Full Name: YYYY-MM-DD HH:MM:SS ±ZZZZ`
