@@ -57,29 +57,7 @@ here-be-context/
 │
 ├── skill-trees/
 │   ├── README.md
-│   ├── _artifacts/
-│   │   └── skill-tree-naming-grimoire.md
-│   │
-│   ├── perception/
-│   │   ├── README.md
-│   │   └── intent-detection.md
-│   │
-│   ├── speech/
-│   │   ├── README.md
-│   │   ├── tone-control.md
-│   │   └── [speech-related files]
-│   │
-│   ├── intelligence/
-│   │   ├── README.md
-│   │   └── context-layering.md
-│   │
-│   ├── crafting/
-│   │   ├── README.md
-│   │   └── [reusable prompt assets]
-│   │
-│   └── hacking/
-│       ├── README.md
-│       └── edge-cases.md
+│   └── [reusable mechanics and capability patterns]
 │
 ├── quests/
 │   ├── README.md
@@ -93,9 +71,37 @@ here-be-context/
 │   ├── README.md
 │   └── [vague or disruptive input patterns]
 │
+├── guides/
+│   ├── README.md
+│   └── [framework and method guides]
+│
+├── maps/
+│   ├── README.md
+│   └── [relationship and precedence maps]
+│
 └── lexicons/
     ├── README.md
     └── [voice-and-phrasing lexicons]
+```
+
+### Markdown structure at a glance
+
+```text
+README.md                        -> repo-level orientation and navigation
+
+skill-trees/README.md           -> reusable mechanics overview
+quests/README.md                -> project-scoped instruction overview
+relics/README.md                -> system-level behavior overview
+encounters/README.md            -> unstable input pattern overview
+guides/README.md                -> framework and method usage overview
+maps/README.md                  -> relationship and precedence overview
+lexicons/README.md              -> wording and expression control overview
+
+quests/*.md                     -> project contracts and active instruction sets
+relics/*.md                     -> persistent behavioral artifacts
+guides/*.md                     -> applied working guides for one framework or method
+maps/*.md                       -> connective documents that explain how sources work together
+lexicons/*.md                   -> phrasing controls, tone rules, and approved stylistic references
 ```
 
 ---
@@ -127,6 +133,19 @@ These are powerful, persistent, and easy to misuse.
 Unstable or unpredictable inputs.
 
 Encounters document vague, incomplete, disruptive, or oddly phrased requests that can appear anywhere and quietly change what happens next.
+
+### **guides/**
+
+Applied framework references.
+
+Guides explain how to use a specific method, framework, or tool in practice.
+They turn concepts into working procedures instead of leaving them as interesting folklore.
+
+### **maps/**
+
+Relationship and precedence references.
+
+Maps explain how multiple repo artifacts connect, where their borders are, and which one should lead when neighboring systems start stepping on each other’s boots.
 
 ### **lexicons/**
 
@@ -166,6 +185,8 @@ It is a phrasing control surface.
 * Use **quests/** when you want project-scoped instruction patterns
 * Treat **relics/** as powerful but broad behavioral artifacts
 * Visit **encounters/** when something vague, unstable, or irritating shows up mid-run
+* Use **guides/** when you want to apply one framework or method deliberately
+* Use **maps/** when the problem is how multiple sources connect or compete
 * Use **lexicons/** when the wording itself matters and “close enough” is not good enough
 
 If you are trying to decide where a new file belongs, classify it by scope first:
@@ -174,6 +195,8 @@ If you are trying to decide where a new file belongs, classify it by scope first
 * project behavior
 * system behavior
 * unstable input pattern
+* applied framework guide
+* cross-source relationship map
 * controlled expression reference
 
 The map gets cleaner when the scope is honest.
@@ -192,7 +215,7 @@ This repository favors:
 
 Every file should earn its place.
 Every folder should mean something.
-If a new branch is needed, it should be because the system grew — not because naming discipline died in the swamp.
+If a new branch is needed, it should be because the system grew, not because naming discipline died in the swamp.
 
 ---
 
